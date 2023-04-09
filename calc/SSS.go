@@ -1,11 +1,11 @@
 package calc
 
+// 2022 SSS Contribution Table
+// https://web.z.com/ph/blog/sss-monthly-contribution/
+// https://cashmart.ph/sss-unemployment-benefit/
 func CalcSSS(compensation float64) float64 {
 	var result float64
 
-	// 2022 SSS Contribution Table
-	// https://web.z.com/ph/blog/sss-monthly-contribution/
-	// https://cashmart.ph/sss-unemployment-benefit/
 	table := [][3]float64{
 		{1000, 3249.99, 135},
 		{3250, 3749.99, 157.50},
