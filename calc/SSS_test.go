@@ -8,15 +8,16 @@ type sssTest struct {
 }
 
 var sssTests = []sssTest{
-	sssTest{1, 180},
+	sssTest{999.99, 0},
+	sssTest{1000, 135},
 	sssTest{4249.99, 180},
 	sssTest{4250, 202.5},
 	sssTest{6250, 292.5},
 	sssTest{7000, 315},
 	sssTest{8249.99, 360},
-	sssTest{29749.99, 1327.5},
-	sssTest{29750, 1350},
-	sssTest{500000, 1350},
+	sssTest{24749.99, 1102.5},
+	sssTest{24750, 1125},
+	sssTest{500000, 1125},
 }
 
 func TestSSS(t *testing.T) {
