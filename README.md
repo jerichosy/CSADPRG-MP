@@ -21,6 +21,7 @@ go fmt
 cd calc
 go fmt
 ```
+To comment properly, read: https://go.dev/doc/comment
 
 ### S11 - Group 7
 - LADA, MARTIN JOSE MERCHAN
