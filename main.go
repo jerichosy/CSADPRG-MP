@@ -6,6 +6,7 @@
 //  - MERTO, ALLEN NEO MASANGKAY
 //  - SY, MATTHEW JERICHO GO
 // Language: Go
+// Paradigm: Procedural
 // --------------------
 
 package main
