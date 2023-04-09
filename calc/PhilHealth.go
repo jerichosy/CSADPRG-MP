@@ -1,3 +1,13 @@
+// --------------------
+// Group: S11 - Group 7
+// Members:
+//  - LADA, MARTIN JOSE MERCHAN
+//  - LIM, JUSTIN NATHANIEL UY
+//  - MERTO, ALLEN NEO MASANGKAY
+//  - SY, MATTHEW JERICHO GO
+// Language: Go
+// --------------------
+
 package calc
 
 // 2022 PhilHealth Premium Rate

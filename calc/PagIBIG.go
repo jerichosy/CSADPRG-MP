@@ -1,3 +1,13 @@
+// --------------------
+// Group: S11 - Group 7
+// Members:
+//  - LADA, MARTIN JOSE MERCHAN
+//  - LIM, JUSTIN NATHANIEL UY
+//  - MERTO, ALLEN NEO MASANGKAY
+//  - SY, MATTHEW JERICHO GO
+// Language: Go
+// --------------------
+
 package calc
 
 // https://www.pagibigfund.gov.ph/document/pdf/circulars/provident/HDMF%20Circular%20No.%20274%20-%20Revised%20Guidelines%20on%20Pag-IBIG%20Fund%20Membership.pdf
