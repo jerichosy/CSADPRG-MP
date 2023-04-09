@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jerichosy/CSADPRG-MP/calc"
+	"github.com/jerichosy/CSADPRG-MP/tree/main/calc"
 )
 
 func main() {
