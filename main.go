@@ -27,7 +27,7 @@ func main() {
 	// Calculate SSS, PhilHealth, and Pag-IBIG from monthly income
 	sssContribution = calc.CalcSSS(monthlyIncome)
 	philhealthContribution = calc.CalcPhilHealth(monthlyIncome)
-	// pagibigContribution = calc.CalcPagIBIG(monthlyIncome)
+	pagibigContribution = calc.CalcPagIBIG(monthlyIncome)
 
 	totalContributions = sssContribution + philhealthContribution + pagibigContribution
 
