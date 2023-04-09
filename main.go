@@ -1,8 +1,9 @@
 package main
 
 import (
-    "fmt"
-    "github.com/jerichosy/CSADPRG-MP/calc"
+	"fmt"
+
+	"github.com/jerichosy/CSADPRG-MP/calc"
 )
 
 func main() {
@@ -14,4 +15,5 @@ func main() {
 
 	// Get taxable income (minus SSS/GSIS, PhilHealth, Pag-IBIG)
 	fmt.Println(calc.CalcSSS(monthlyIncome))
+	fmt.Printf("PhilHealth: %.2f", calc.CalcPhilHealth(monthlyIncome))
 }
