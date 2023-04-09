@@ -1,5 +1,7 @@
 package calc
 
+// https://www.philhealth.gov.ph/news/2019/new_contri.php#gsc.tab=0
+// https://www.philhealth.gov.ph/advisories/2022/adv2022-0010.pdf
 func CalcPhilHealth(income float64) float64 {
 	var result float64 = 0
 
