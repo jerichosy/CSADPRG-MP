@@ -21,8 +21,16 @@ func main() {
 
 	var totalDeductions float64
 
-	fmt.Print("Enter monthly income: ")
-	fmt.Scan(&monthlyIncome)
+	for {
+		fmt.Print("Enter monthly income: ")
+		_, err := fmt.Scanf("%f", &monthlyIncome)
+		if err == nil {
+			break
+		}
+		fmt.Println("Invalid input. Please try again.")
+		var dump string
+		fmt.Scanln(&dump)
+	}
 
 	// Calculate SSS, PhilHealth, and Pag-IBIG from monthly income
 	sssContribution = calc.CalcSSS(monthlyIncome)
