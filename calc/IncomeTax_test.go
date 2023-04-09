@@ -27,7 +27,7 @@ func TestIncomeTax(t *testing.T) {
 	for _, test := range incomeTaxTests {
 		got := CalcIncomeTax(test.input)
 		if got != test.expected {
-			t.Errorf("CalcSSS(%f) = %f; want %f", test.input, got, test.expected)
+			t.Errorf("CalcIncomeTax(%f) = %f; want %f", test.input, got, test.expected)
 		}
 	}
 }
