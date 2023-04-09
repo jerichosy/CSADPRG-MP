@@ -15,6 +15,12 @@ cd calc
 go test -coverprofile=coverage.out
 go tool cover -html=coverage.out
 ```
+To format code, do:
+```
+go fmt
+cd calc
+go fmt
+```
 
 ### S11 - Group 7
 - LADA, MARTIN JOSE MERCHAN
