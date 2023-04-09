@@ -14,6 +14,6 @@ func main() {
 	fmt.Scan(&monthlyIncome)
 
 	// Get taxable income (minus SSS/GSIS, PhilHealth, Pag-IBIG)
-	fmt.Println(calc.CalcSSS(monthlyIncome))
+	fmt.Println("SSS:", calc.CalcSSS(monthlyIncome))
 	fmt.Printf("PhilHealth: %.2f", calc.CalcPhilHealth(monthlyIncome))
 }
