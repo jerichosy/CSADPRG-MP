@@ -35,7 +35,7 @@ func main() {
 	for {
 		fmt.Print("Enter monthly income: ")
 		_, err := fmt.Scanf("%f", &monthlyIncome)
-		if err == nil {
+		if err == nil && monthlyIncome > 0 {
 			break
 		}
 		fmt.Println("Invalid input. Please try again.")
